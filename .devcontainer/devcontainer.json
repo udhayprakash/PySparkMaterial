@@ -1,0 +1,24 @@
+{
+    "name": "PySpark",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.pythonPath": "/usr/local/spark/python",
+                "python.linting.pylintEnabled": true,
+                "python.linting.enabled": true,
+                "terminal.integrated.shell.linux": "/bin/bash"
+              },
+            "extensions": ["ms-python.python"]
+        }
+    },
+    "forwardPorts": [],
+    "remoteUser": "codespace",
+    "mounts": [
+      "source=${localWorkspaceFolder}/data,target=/workspaces/PySpark/data,type=bind,consistency=cached"
+    ],
+    "runArgs": [
+      "--cap-add=SYS_ADMIN"
+    ]
+  }
+  
