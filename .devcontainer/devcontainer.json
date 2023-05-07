@@ -16,7 +16,19 @@
                     }
                   }
               },
-            "extensions": ["ms-python.python"]
+            "extensions": [
+              "ms-python.python",
+              "ms-python.vscode-pylance",
+              "redhat.vscode-yaml",
+              "timonwong.shellcheck",
+              "ms-azuretools.vscode-docker",
+              "visualstudioexptteam.vscodeintellicode",
+              "littlefoxteam.vscode-python-test-adapter",
+              "donjayamanne.githistory",
+              "pustelto.vscode-jupyter-2022",
+              "emilast.logfilehighlighter",
+              "davidanson.vscode-markdownlint"
+            ]
         }
     },
     "forwardPorts": [],
